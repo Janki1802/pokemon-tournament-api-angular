@@ -80,7 +80,6 @@ describe('PokemonTournamentStatisticsComponent', () => {
   
     expect(component.pokemon.length).toBe(0);
   
-
     expect(console.error).toHaveBeenCalledWith('Error while loading pokemon data :', jasmine.any(Error));
   });
   

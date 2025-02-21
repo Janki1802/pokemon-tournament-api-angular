@@ -1,6 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 import { PokemonDataService } from './pokemon-data.service';
-import { HttpClientTestingModule, HttpTestingController, provideHttpClientTesting } from '@angular/common/http/testing';
+import { HttpTestingController, provideHttpClientTesting } from '@angular/common/http/testing';
 import { PokemonData } from '../model/pokemon-data.model';
 import { provideHttpClient } from '@angular/common/http';
 
