@@ -14,5 +14,6 @@ appsettings*.json
 # Ignore specific Pokémon API files
 PokemonAPI/bin/
 PokemonAPI/obj/
-
+PokemonAPI/appsettings.json/
+PokemonAPI/obj/appsettings.Development.json/
 
