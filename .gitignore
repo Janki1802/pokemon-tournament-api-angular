@@ -1,3 +1,18 @@
+# Ignore Visual Studio config files
 .vs/
+.vscode/
+.idea/
+
+
+# Ignore Node.js package directories if using npm
+node_modules/
+
+
+# Ignore environment-specific files
+appsettings*.json
+
+# Ignore specific Pokémon API files
 PokemonAPI/bin/
 PokemonAPI/obj/
+
+
